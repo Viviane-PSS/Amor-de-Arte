@@ -21185,7 +21185,6 @@ disabled look for disabled choices in the results dropdown
 @media (min-width: 500px) {
   .desc-caixa {
     display: flex;
-    height: 350px;
   }
 }
 
@@ -21195,7 +21194,6 @@ disabled look for disabled choices in the results dropdown
 }
 
 .desc-img {
-  border-radius: 50%;
   max-width: 300px;
   max-height: 300px;
   margin-left: 20px;
