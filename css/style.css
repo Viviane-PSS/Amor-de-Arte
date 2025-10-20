@@ -1148,9 +1148,10 @@ a[href*="mailto"] {
   position: relative;
   overflow: hidden;
   max-width: 370px;
+  /* height: 600px; */
   margin-left: auto;
   margin-right: auto;
-  padding: 70px 15px 0;
+  padding: 70px 15px 0 15px;
   border-radius: 8px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
 }
@@ -1162,7 +1163,7 @@ a[href*="mailto"] {
 
 .box-pricing-black {
   color: #ffffff;
-  background: #1b1929;
+  background: #6689ff;
 }
 
 .box-pricing-black .box-pricing-time,
@@ -21154,4 +21155,52 @@ disabled look for disabled choices in the results dropdown
 
 .modal-body {
   padding: 29px 30px 35px;
+}
+
+.texto {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.titulo {
+  padding-bottom: 20px;
+}
+
+.descricao {
+  background-color: #00aced;
+  padding: 30px;
+  color: white;
+}
+
+.branco {
+  color: white;
+}
+
+/* .desc-caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+@media (min-width: 500px) {
+  .desc-caixa {
+    display: flex;
+    height: 350px;
+  }
+}
+
+.caixa-texto-desc {
+  padding: 0 80px;
+  text-align: justify;
+}
+
+.desc-img {
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 20px;
+}
+
+.atelie {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
 }
