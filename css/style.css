@@ -6,6 +6,12 @@
 *
 * Contexts
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 a:focus,
 button:focus {
   outline: none !important;
@@ -21167,38 +21173,91 @@ disabled look for disabled choices in the results dropdown
 }
 
 .descricao {
-  background-color: #00aced;
-  padding: 30px;
+  background-color: #5cd3ff;
   color: white;
+  width: 100v;
 }
 
 .branco {
   color: white;
 }
 
-/* .desc-caixa {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
+.azul {
+  color: #00aced;
+  cursor: pointer;
+}
+
+.btn-azul {
+  background-color: #5cd3ff;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-azul:hover {
+  background-color: #00aced;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-rosa {
+  background-color: #f08080;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-rosa:hover {
+  background-color: #f7bfc1;
+  color: white;
+  cursor: pointer;
+}
+
+.desc-caixa {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 @media (min-width: 500px) {
   .desc-caixa {
-    display: flex;
+    /* display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+     */
+    margin: auto;
   }
 }
 
 .caixa-texto-desc {
+  display: flex;
+  flex-direction: column;
   padding: 0 80px;
-  text-align: justify;
+  text-align: center;
+  justify-content: center;
 }
 
 .desc-img {
   max-width: 300px;
   max-height: 300px;
-  margin-left: 20px;
+  margin: 0;
 }
 
 .atelie {
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cursos-in {
+  background-color: rgba(255, 255, 255, 1);
+  margin: 20px 20px;
+}
+
+.modal-img {
+  border-radius: 50%;
+  max-width: 150px;
+  margin: 0 auto;
+}
+.titulo-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
