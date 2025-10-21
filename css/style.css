@@ -6691,11 +6691,11 @@ textarea.textarea-lg {
 }
 
 .thumbnail-classic-title-wrap .icon:hover {
-  color: #6689ff;
+  color: #aeb8f4;
 }
 
 .thumbnail-classic-title {
-  color: #6689ff;
+  color: #aeb8f4;
 }
 
 .thumbnail-classic-title a,
@@ -12220,7 +12220,7 @@ html [class*="section-"].section-top-0 {
 }
 
 .bg-gray-15 {
-  background-color: #1b1929;
+  background-color: #aeb8f4;
 }
 
 .bg-gray-36 {
@@ -17179,7 +17179,7 @@ h3 + .isotope-filters {
 [class*="isotope-filters-list"] a,
 [class*="isotope-filters-list"] a:focus,
 [class*="isotope-filters-list"] a:active {
-  color: inherit;
+  color: #aeb8f4;
 }
 
 [class*="isotope-filters-list"] a:hover {
@@ -17187,12 +17187,12 @@ h3 + .isotope-filters {
 }
 
 [class*="isotope-filters-list"] a:hover {
-  color: #6689ff;
+  color: #aeb8f4;
 }
 
 [class*="isotope-filters-list"] a.active {
   color: #ffffff;
-  background: #6689ff;
+  background: #aeb8f4;
 }
 
 @media (min-width: 992px) {
@@ -17251,10 +17251,10 @@ h3 + .isotope-filters {
     color: inherit;
   }
   .isotope-filters-list a:hover {
-    color: #6689ff;
+    color: #aeb8f4;
   }
   .isotope-filters-list a.active {
-    color: #6689ff;
+    color: #aeb8f4;
     background: transparent;
   }
   .isotope-filters-list-2 a,
@@ -17263,10 +17263,10 @@ h3 + .isotope-filters {
     color: inherit;
   }
   .isotope-filters-list-2 a:hover {
-    color: #6689ff;
+    color: #aeb8f4;
   }
   .isotope-filters-list-2 a.active {
-    color: #6689ff;
+    color: #aeb8f4;
   }
   .isotope-filters-list-classic {
     text-align: right;
@@ -17312,7 +17312,7 @@ h3 + .isotope-filters {
   }
   .isotope-filters-list-classic li a:hover,
   .isotope-filters-list-classic li a.active {
-    color: #6689ff;
+    color: #aeb8f4;
     background: transparent;
     border-color: transparent;
   }
@@ -17324,11 +17324,11 @@ h3 + .isotope-filters {
   }
   .isotope-filters-list-classic li a:hover::before,
   .isotope-filters-list-classic li a.active::before {
-    border-color: #6689ff transparent #6689ff transparent;
+    border-color: #aeb8f4 transparent #aeb8f4 transparent;
   }
   .isotope-filters-list-classic li a:hover::after,
   .isotope-filters-list-classic li a.active::after {
-    border-color: transparent #6689ff transparent #6689ff;
+    border-color: transparent #aeb8f4 transparent #aeb8f4;
   }
   .isotope-filters .isotope-filters-toggle {
     display: none;
@@ -21173,7 +21173,7 @@ disabled look for disabled choices in the results dropdown
 }
 
 .descricao {
-  background-color: #5cd3ff;
+  background-color: #aeb8f4;
   color: white;
   width: 100v;
 }
@@ -21183,18 +21183,18 @@ disabled look for disabled choices in the results dropdown
 }
 
 .azul {
-  color: #00aced;
+  color: #aeb8f4;
   cursor: pointer;
 }
 
 .btn-azul {
-  background-color: #5cd3ff;
+  background-color: #aeb8f4;
   color: white;
   cursor: pointer;
 }
 
 .btn-azul:hover {
-  background-color: #00aced;
+  background-color: #5d72e9;
   color: white;
   cursor: pointer;
 }
@@ -21260,4 +21260,64 @@ disabled look for disabled choices in the results dropdown
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/*  */
+
+@media (max-width: 599.9px) {
+  .container-footer {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 600px) {
+  .container-footer {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.informacoes {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.informacoes div {
+  padding: 24px;
+}
+.rs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+
+.rs span {
+  padding-left: 10px;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 0;
+  padding-left: 24px;
+}
+.map {
+  border-radius: 8px;
+  padding-left: 24px;
 }
