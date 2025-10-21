@@ -21199,6 +21199,10 @@ disabled look for disabled choices in the results dropdown
   color: #aeb8f4;
 }
 
+.carousel-control-next-icon:hover {
+  color: #aeb8f4;
+}
+
 .carousel-control-prev-icon:after {
   content: "<";
   font-size: 55px;
