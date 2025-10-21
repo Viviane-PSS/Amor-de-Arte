@@ -21166,6 +21166,7 @@ disabled look for disabled choices in the results dropdown
 .texto {
   text-align: justify;
   font-size: 14px;
+  padding: 0 10px;
 }
 
 .titulo {
