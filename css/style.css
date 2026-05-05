@@ -21687,8 +21687,16 @@ disabled look for disabled choices in the results dropdown
 
 .descricao {
   background-color: var(--cor1);
-  color: white;
+  color: #e8e0dc;
   width: 100v;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 .branco {
@@ -21736,6 +21744,7 @@ disabled look for disabled choices in the results dropdown
   color: white;
   cursor: pointer;
   border-radius: 10px;
+  font-size: 24px;
 }
 
 .btn-azul:hover {
