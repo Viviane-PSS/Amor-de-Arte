@@ -1660,7 +1660,7 @@ O resultado são composições únicas, cheias de leveza, poesia e beleza, onde 
         <div class="container">
           <h2 class="wow fadeInLeft">Avaliações</h2>
 
-          <div class="google-rating-badge wow fadeInUp">
+          <div class="google-rating-badge wow fadeInUp" id="google-rating-badge">
             <div class="google-brand">
               <span class="fa-brands fa-google google-g-icon"></span>
               <span class="google-brand-text">Google</span>
@@ -1674,7 +1674,7 @@ O resultado são composições únicas, cheias de leveza, poesia e beleza, onde 
             </div>
           </div>
 
-          <div class="row row-30 justify-content-center g-reviews-row">
+          <div class="row row-30 justify-content-center g-reviews-row" id="google-reviews-container">
 
             <div class="col-sm-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".1s">
               <div class="g-review-card">
@@ -1803,6 +1803,9 @@ O resultado são composições únicas, cheias de leveza, poesia e beleza, onde 
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <!-- Google Reviews: substitua SUA_CHAVE_AQUI pela sua API Key do Google Cloud -->
+    <script src="js/google-reviews.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHB7RkTtuneqo3KOIvftpe4QwPzM-Jt44&libraries=places&callback=initGoogleReviews" async defer></script>
     <!-- coded by Himic-->
   </body>
 </html>
