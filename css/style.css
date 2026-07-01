@@ -22089,6 +22089,48 @@ disabled look for disabled choices in the results dropdown
   }
 }
 
+/* Owl Carousel — Reviews */
+.owl-reviews .g-review-card {
+  height: 100%;
+}
+
+.owl-reviews.owl-carousel .owl-nav button.owl-prev,
+.owl-reviews.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--cor1);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.6rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.owl-reviews.owl-carousel .owl-nav button.owl-prev { left: -18px; }
+.owl-reviews.owl-carousel .owl-nav button.owl-next { right: -18px; }
+
+.owl-reviews.owl-carousel .owl-nav button:hover { opacity: 1; }
+
+.owl-reviews.owl-carousel .owl-dots {
+  margin-top: 20px;
+}
+
+.owl-reviews.owl-carousel .owl-dot span {
+  background: #ccc;
+}
+
+.owl-reviews.owl-carousel .owl-dot.active span {
+  background: var(--cor1);
+}
+
 /* Capa responsiva para mobile */
 @media (max-width: 767px) {
   .swiper-slider-classic {
