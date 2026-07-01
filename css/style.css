@@ -21688,9 +21688,17 @@ disabled look for disabled choices in the results dropdown
 .descricao {
   background-color: var(--cor1);
   color: #e8e0dc;
-  width: 100v;
+  width: 100vw;
   opacity: 0;
   animation: fadeIn 2s forwards;
+  padding-bottom: 20px;
+}
+
+.cursos-titulo {
+  color: #e8e0dc;
+  text-align: center;
+  padding: 30px 0 10px;
+  margin: 0;
 }
 
 @keyframes fadeIn {
@@ -21744,7 +21752,7 @@ disabled look for disabled choices in the results dropdown
   color: white;
   cursor: pointer;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .btn-azul:hover {
@@ -21767,26 +21775,13 @@ disabled look for disabled choices in the results dropdown
 
 .desc-caixa {
   margin: 0 auto;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-left: 10%;
-}
-
-@media (min-width: 500px) {
-  .desc-caixa {
-    /* display: flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-     */
-    margin: auto;
-  }
+  padding: 20px 5%;
 }
 
 .caixa-texto-desc {
   display: flex;
   flex-direction: column;
-  padding: 0 80px;
+  padding: 20px 40px;
   text-align: center;
   justify-content: center;
 }
@@ -21794,7 +21789,45 @@ disabled look for disabled choices in the results dropdown
 .desc-img {
   max-width: 300px;
   max-height: 300px;
-  margin: 0;
+  margin: 0 auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .desc-img {
+    max-width: 220px;
+    max-height: 220px;
+    margin: 0 auto 10px;
+  }
+
+  .caixa-texto-desc {
+    padding: 10px 20px;
+  }
+
+  .caixa-texto-desc h2 {
+    font-size: 1.4rem;
+  }
+
+  .btn-azul {
+    font-size: 16px;
+  }
+
+  .carousel-control-prev-icon:after,
+  .carousel-control-next-icon:after {
+    font-size: 30px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .cursos-titulo {
+    font-size: 1.8rem;
+    padding: 20px 0 5px;
+  }
 }
 
 .atelie {
@@ -21803,7 +21836,9 @@ disabled look for disabled choices in the results dropdown
 
 .cursos-in {
   background-color: rgba(255, 255, 255, 1);
-  margin: 20px 20px;
+  margin: 10px 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .modal-img {
@@ -21884,4 +21919,16 @@ disabled look for disabled choices in the results dropdown
 
 .justify {
   text-align: justify;
+}
+
+/* Capa responsiva para mobile */
+@media (max-width: 767px) {
+  .swiper-slider-classic {
+    min-height: 280px;
+    max-height: 320px;
+  }
+
+  .swiper-slider-classic .swiper-slide {
+    background-position: 65% center;
+  }
 }
