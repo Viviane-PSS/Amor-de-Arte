@@ -266,6 +266,13 @@ footer {
   background-color: var(--cor1);
 }
 
+html,
+body {
+  background-color: var(--cor1);
+  margin: 0;
+  padding: 0;
+}
+
 /*
 *
 * Brand
