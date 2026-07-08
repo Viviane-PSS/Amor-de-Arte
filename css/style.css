@@ -21946,7 +21946,7 @@ disabled look for disabled choices in the results dropdown
 
 .google-g-icon {
   font-size: 2.4rem;
-  color: #4285F4;
+  color: #4285f4;
 }
 
 .google-brand-text {
@@ -21974,7 +21974,7 @@ disabled look for disabled choices in the results dropdown
 }
 
 .gstar {
-  color: #FBBC05;
+  color: #fbbc05;
 }
 
 .google-count-text {
@@ -22039,14 +22039,14 @@ disabled look for disabled choices in the results dropdown
 }
 
 .g-review-stars {
-  color: #FBBC05;
+  color: #fbbc05;
   font-size: 1rem;
   letter-spacing: 1px;
 }
 
 .g-review-badge-icon {
   font-size: 1.4rem;
-  color: #4285F4;
+  color: #4285f4;
   align-self: flex-start;
 }
 
@@ -22067,19 +22067,21 @@ disabled look for disabled choices in the results dropdown
   align-items: center;
   gap: 10px;
   background: #fff;
-  color: #4285F4;
-  border: 2px solid #4285F4;
+  color: #4285f4;
+  border: 2px solid #4285f4;
   border-radius: 24px;
   padding: 10px 28px;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
   margin-top: 16px;
 }
 
 .btn-google-maps:hover {
-  background: #4285F4;
+  background: #4285f4;
   color: #fff;
   text-decoration: none;
 }
@@ -22121,10 +22123,16 @@ disabled look for disabled choices in the results dropdown
   transition: opacity 0.2s;
 }
 
-.owl-reviews.owl-carousel .owl-nav button.owl-prev { left: -18px; }
-.owl-reviews.owl-carousel .owl-nav button.owl-next { right: -18px; }
+.owl-reviews.owl-carousel .owl-nav button.owl-prev {
+  left: -18px;
+}
+.owl-reviews.owl-carousel .owl-nav button.owl-next {
+  right: -18px;
+}
 
-.owl-reviews.owl-carousel .owl-nav button:hover { opacity: 1; }
+.owl-reviews.owl-carousel .owl-nav button:hover {
+  opacity: 1;
+}
 
 .owl-reviews.owl-carousel .owl-dots {
   margin-top: 20px;
@@ -22147,5 +22155,21 @@ disabled look for disabled choices in the results dropdown
 
   .swiper-slider-classic .swiper-slide {
     background-position: 65% center;
+  }
+}
+
+/* Oculta a imagem de celular em telas grandes */
+.capa-mobile {
+  display: none;
+  padding-top: 24px;
+}
+
+/* Em telas de celular (até 768px de largura), inverta a exibição */
+@media (max-width: 764px) {
+  .capa-desktop {
+    display: none; /* Oculta a versão de computador */
+  }
+  .capa-mobile {
+    display: block; /* Exibe a versão de celular */
   }
 }
