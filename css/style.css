@@ -22173,3 +22173,7 @@ disabled look for disabled choices in the results dropdown
     display: block; /* Exibe a versão de celular */
   }
 }
+
+#cursos {
+  margin-top: 16px;
+}
