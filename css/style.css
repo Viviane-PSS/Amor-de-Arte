@@ -21730,8 +21730,8 @@ disabled look for disabled choices in the results dropdown
 }
 
 .carousel-control-next-icon:after {
-  content: ">";
-  font-size: 55px;
+  content: ">>";
+  font-size: 42px;
   color: var(--cor1);
 }
 
@@ -21740,8 +21740,8 @@ disabled look for disabled choices in the results dropdown
 }
 
 .carousel-control-prev-icon:after {
-  content: "<";
-  font-size: 55px;
+  content: "<<";
+  font-size: 42px;
   color: var(--cor1);
 }
 

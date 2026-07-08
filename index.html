@@ -1796,6 +1796,23 @@ O resultado são composições únicas, cheias de leveza, poesia e beleza, onde 
     <!-- Google Reviews: substitua SUA_CHAVE_AQUI pela sua API Key do Google Cloud -->
     <script src="js/google-reviews.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNXk9OP2uMvUaCFQNkMRBM4csy2guSC2M&libraries=places&callback=initGoogleReviews" async defer></script>
+    <!-- Swipe/drag para o carousel de cursos em smartphones -->
+    <script>
+      (function () {
+        var el = document.getElementById('carouselExampleIndicators');
+        if (!el) return;
+        var startX = 0;
+        el.addEventListener('touchstart', function (e) {
+          startX = e.changedTouches[0].clientX;
+        }, { passive: true });
+        el.addEventListener('touchend', function (e) {
+          var diff = startX - e.changedTouches[0].clientX;
+          if (Math.abs(diff) > 50) {
+            $(el).carousel(diff > 0 ? 'next' : 'prev');
+          }
+        }, { passive: true });
+      })();
+    </script>
     <!-- coded by Himic-->
   </body>
 </html>
